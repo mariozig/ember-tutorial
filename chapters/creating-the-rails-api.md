@@ -23,7 +23,7 @@ The Active Model Adapter enables Ember to communicate with your Rails backend th
 
 ## Namespace API Requests
 
-We need to tell Ember to prepend all API requests with `api/v1/`, as we'll be versioning our API. Add these two lines to the top of your store file:
+We need to tell Ember to prepend all API requests with `api/v1/`, as we'll be versioning our API. Add these lines to the top of your store file:
 
 ```coffee
 # app/assets/javascripts/store.js.coffee
