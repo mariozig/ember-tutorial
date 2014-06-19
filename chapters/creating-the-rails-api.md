@@ -19,7 +19,7 @@ App.ApplicationAdapter = DS.ActiveModelAdapter.extend({});
 
 If you don't see this code then replace whatever is in your store with this.
 
-The Active Model Adapter enables Ember to communicate with your Rails backend through  [Active Model Serializers](https://github.com/rails-api/active_model_serializers). Normally you would need to include the `active_model_serializers` gem, but Ember Rails already has it a as a dependency.
+The Active Model Adapter enables Ember to communicate with your Rails backend through  [Active Model Serializers](https://github.com/rails-api/active_model_serializers). Normally you would need to include the `active_model_serializers` gem, but Ember Rails already has it as a dependency.
 
 ## Namespace API Requests
 
